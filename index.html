@@ -1,51 +1,49 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>あちち！zacht！！！</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="responsive.css">
-  </head>
-  <body>
-    <header>
-      <div class="login">
-        <a class="login window" href="#">ログイン</a>
-      </div>
-      <div class="title-logo">
-      <img src="C:\Users\user\Pictures\Screenshots\IMG_20200628_022704_253 (2).jpg">
-      </div>
-       <div class="menu">
-        <ul>
-           <li><a href="#">管理人のプロフィール</a></li>
-           <li><a href="#">サイトの概要</a></li>
-           <li><a href="C:\Users\user\Desktop\プログラミング学習\送信フォーム.html">お問い合わせ</a></li>
-        </ul>
-       </div>
-    </header>
-    <article>
-    <div class="top-image">
-      <div class="container">
-        <h1>やあ！元気？</h1>
-        <p>今日も頑張ってプログラミングしよう！</p>
-      </div>
-      <div class="btn">
-        <a href="#" class="btn index">入り口</a>
-      </div>
-    </div>
-    <div class="lesson-wrapper">
-    </div>
-    <div class="message-wrapper">
-    </div>
-    </article>
-    <footer>
-      <div class="copyright" align="center">©2020 あちち！zacht！！！</div>
-       <div class="address">
-        <ul>
-           <li>連絡先はこちら</li>
-           <li><a href="#">as39dl@yahoo.co.jp</a></li>
-        </ul>
-       </div>
-    </footer>
-  </body>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>サンプルページ</title>
+        <link rel="stylesheet" href="sample.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-left">
+                    <h6>あちち！zacht!!!</h6>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">挨拶</a></li>
+                        <li><a href="#">作品</a></li>
+                        <li><a href="#">実績</a></li>
+                        <li><a href="#">依頼ならこちら</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <h2>これはサンプルの送信フォームです。</h2>
+            <form>
+                <input type="text" class="introduction" placeholder="名前を入力してください"><br><hr>
+                性別:<input type="radio" name="gender" value="男性">男性
+                <input type="radio" name="gender" value="女性" checked>女性<br>
+                年齢:<select name="age" aria-placeholder="自分の年代を選んでください">
+                    <option value="10代">10代</option>
+                    <option value="20代">20代</option>
+                    <option value="30代">30代</option>
+                    <option value="40代">40代</option>
+                    <option value="50代">50代</option>
+                    <option value="60代">60代</option>
+                </select><br>
+                好きな食物:<input type="checkbox" name="cooking" value="パスタ">パスタ
+                <input type="checkbox" name="cooking" value="カレーライス">カレーライス
+                <input type="checkbox" name="cooking" value="お寿司" checked>お寿司
+                <input type="checkbox" name="cooking" value="ケーキ">ケーキ<br><hr>
+                <input type="submit" class="submit-botton" value="送信">
+            </form>
+        </main>
+        <footer>
+            <p class="copyright">copyright zacht_2020</p>
+        </footer>
+    </body>
 </html>
