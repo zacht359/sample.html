@@ -213,6 +213,39 @@ aside p{
     color: #9f6f25;
 }
 
+/* MENU
+-------------------------------------------- */
+#menu{
+    background-image: url("../images/main-bg.jpg"),linear-gradient(#181816, #cba88c, #251d1a);    
+    min-height: 100vh;
+}
+.menu-content{
+    max-width: 560px;
+    margin-top: 10%;
+}
+.menu-content .page-title{
+    text-align: center;
+}
+.menu-content p{
+    font-size: 1.175rem;
+    color: #000;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 10px 0 0;
+}
+.grid{
+    display: grid;
+    gap: 26px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+.item span{
+    background: red;
+    color: #fff;
+    border-radius: 25%;
+    padding: 5px 5px;
+}
+
 /* モバイル
 -------------------------------------------- */
 @media(max-width: 760px){
@@ -280,5 +313,10 @@ aside p{
     .post-title,
     .post-categoly{
         margin-left: 80px;
+    }
+
+    /* menu.html */
+    .menu-content{
+        margin-top: 20%;
     }
 }
