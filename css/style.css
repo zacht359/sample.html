@@ -217,6 +217,7 @@ aside p{
 -------------------------------------------- */
 #menu{
     background-image: url("../images/main-bg.jpg"),linear-gradient(#181816, #cba88c, #251d1a);    
+    background-blend-mode: luminosity;
     min-height: 100vh;
 }
 .menu-content{
